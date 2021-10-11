@@ -1,0 +1,259 @@
+    1  ls -lrh
+    2  ls
+    3  ls /data
+    4  pwd
+    5  mkdir Learning_unix
+    6  ls
+    7  cd desktop
+    8  ls
+    9  mkdir Learning_unix
+   10  ls
+   11  man ls
+   12  man cd
+   13  git-basics-exerczize
+   14  ls -a
+   15  git init
+   16  pwd
+   17  mkdir Learning_unix
+   18  cd desktop
+   19  cd desktop
+   20  ls
+   21  mkdir Learning_unix
+   22  cd desktop
+   23  cd
+   24  git config
+   25  git config --global
+   26   git config --global user.name "Neo Sebanze"
+   27   git config --global user.email neos25722@gmail.com
+   28  code
+   29  git config --global core.editor "code --wait"
+   30  git config -- global -e
+   31  git config --global -e
+   32  git config --global core.autocrlf true
+   33  git config --help
+   34  ls
+   35  cd usr
+   36  ls
+   37  cd ..
+   38  cd ..
+   39  cd /mnt
+   40  cd mnt/
+   41  cd
+   42  ls -la
+   43  cd Desktop
+   44  mkdir Moon
+   45  cd Moon
+   46  git init
+   47  ls
+   48  ls - a
+   49  ls -a
+   50  open.git
+   51  open .git
+   52  ls
+   53  echo >file1.txt
+   54  echo hello>file1.txt
+   55  echo hello>file2.txt
+   56  git status
+   57  git add .
+   58  git status
+   59  echo world >> file.txt
+   60  git status
+   61  git add 
+   62  git add .
+   63  git status
+   64  git status
+   65  echo world>> file1.ttxt
+   66  echo world>> file1.txt
+   67  git status
+   68  git add .
+   69  git status
+   70  git commit -m "Initial commit."
+   71  echo test >> file1.txt
+   72  git status
+   73  git add 
+   74  git add .
+   75  git status
+   76  git commit -m "Second commit"
+   77  echo test2 >>file1.txt
+   78  git commit -am "Straigh commit without staging"
+   79  rm file2.txt
+   80  git status
+   81  git add .
+   82  git commit -m "Third commit"
+   83  git ls-files
+   84  ls
+   85  mv file1.txt main.js
+   86  ls files
+   87  ls-files
+   88  git ls-files
+   89  git status
+   90  git add. .
+   91  git add .
+   92  git status
+   93  git mv main.js file1.js
+   94  git status
+   95  git add .
+   96  git commit "Changed names"
+   97  git commit -m "Changed names"
+   98  mkdir logs 
+   99  echo hello > logs/dev.log
+  100  git status
+  101  echo logs/ > .gitignore
+  102  echo logs/> .gitignore
+  103  code gitignore
+  104  git status
+  105  code .gitignore
+  106  git status
+  107  git add .gitignore
+  108  git commit -m "Added ignore file"
+  109  mkdir bin
+  110  git status
+  111  ls
+  112  echo hello >bin/app.bin
+  113  git status
+  114  git add .
+  115  git commit -m "Add bin."
+  116  code gitignore
+  117  git status
+  118  git add .
+  119  git commit -m "Include bin/ in git ignore"
+  120  echo helloworld > bin/app.bin
+  121  git status
+  122  git ls-files
+  123  git rm-h
+  124  git rm -h
+  125  git --cached bin/
+  126  git rm --cashed bin/
+  127  git rm --cached bin/
+  128  git rm --cached -r bin/
+  129  git status
+  130  git commit "applied ignore to bin"
+  131  git commit -m "applied ignore to bin"
+  132  echo test > bin/app.bin
+  133  git status
+  134  git status -s
+  135  echo sky >> file1.js
+  136  echo sky > file2.js
+  137  git status
+  138  git status -s
+  139  git add .
+  140  git status -s
+  141  git commit -m "edited file 1 and added file2"
+  142  git status -s
+  143  git diff --staged
+  144  echo place >>file1.js
+  145  git status
+  146  git add .
+  147  git diff --staged
+  148  git diff
+  149  echo shake >> file1.js
+  150  git diff
+  151   git status -s
+  152  git config --global diff.tool vscode
+  153  git config --global difftool.vscode.cmd
+  154  git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+  155  git config --global -e
+  156  git difftool
+  157  git difftool --staged
+  158  git log
+  159  log --oneline
+  160  log --oneline
+  161  git log --oneline
+  162  git show f2d6625
+  163  git ls-tree
+  164  git ls-tree HEAD~1
+  165  ls
+  166  cd demo-repo
+  167  cd ..
+  168  ls 
+  169  cd demo2_2
+  170  cd demo_2
+  171  ls
+  172  git init
+  173  git status
+  174  git add .
+  175  git status
+  176  git commit -m "Created ReadMe"
+  177  git push
+  178  git remote add origin https://github.com/NeyoCreator/demo2.git
+  179  git remote -v
+  180  git push
+  181  git push origin master
+  182  ls
+  183  git init
+  184  git status
+  185  git add .
+  186  git commit - m"First commit"
+  187  git commit -m "First Commit"
+  188  git remote add origin https://github.com/NeyoCreator/hakela_systems
+  189  git push origin master 
+  190  git status
+  191  cd desktop
+  192  ls
+  193  cd mnt/
+  194  cd /mnt
+  195  cd DESKTOP
+  196  cd
+  197  cd User
+  198  mkdir "git-basic-exercise"
+  199  cd /mnt
+  200  cd c
+  201  ls -a
+  202  git init
+  203  git status
+  204  touch README.md
+  205  git status
+  206  git log
+  207  git status
+  208  git log
+  209  git add .
+  210  git status
+  211  git commit -m "initial commit"
+  212  git log
+  213  nano README.md
+  214  git status
+  215  git commit -m "second commit"
+  216  git status
+  217  git add .
+  218  git status
+  219  git commit -m "second commit"
+  220  git log 
+  221  nano README.md
+  222  git status
+  223  git diff README.md
+  224  git add REAMME.md
+  225  git README.md
+  226  git add README.md
+  227  git commit -m "third commit"
+  228  git log
+  229  git log
+  230  git checkout 522de31b4c320169cf7f1de189e23fa90c288f2a
+  231  cat README.md
+  232  git checkout main
+  233  git checkout main
+  234  git branch
+  235  git checkout master
+  236  git checkout master
+  237  git log 
+  238  git checkout d790f230558b73087c9490c90aea9a16b67fd76c
+  239  cat README.md
+  240  git checkout master
+  241  man cat
+  242  git man cat
+  243  git branch milkshake-flavours
+  244  git branch
+  245  git checkout milkshake-flavours
+  246  git branch
+  247  git status
+  248  nano milkshakes.md
+  249  git status
+  250  git add .
+  251  git commit "added initial flavours"
+  252  git commit -m "added initial flavours"
+  253  git log
+  254  git checkout master
+  255  git branch history
+  256  git log
+  257  git branch
+  258  git checkout history
+  259  history > history.txt
